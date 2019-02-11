@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(255, 111, 145);
+  background: linear-gradient(45deg, rgba(255, 111, 145, 1) 20%, rgba(145, 40, 242, 1) 100%);
+
+  .footer--left {
+    width: 45%;
+    margin: 40px 40px 0 40px;
+
+    .footer__p--top {
+      font-family: Montserrat;
+      font-weight: semi-bold;
+      color: rgb(67, 15, 116);
+      font-size: 60px;
+    }
+
+    .footer__p--bottom {
+      font-family: Roboto;
+      margin-top: 100px;
+    }
+  }
+
+  .footer__form {
+    flex-grow: 1;
+    align-self: flex-start;
+    margin-top: 20px;
+
+    .form__input {
+      background-color: transparent;
+      outline: 0;
+      border: none;
+      border-bottom: black solid 2px;
+      width: 80%;
+    }
+
+    .form__input--text {
+      display: block;
+      border: none;
+      border: 2px solid black;
+      margin-top: 25px;
+      resize: none;
+    }
+
+    label {
+      display: block;
+      font-family: Roboto;
+      font-size: 12px;
+      margin: 15px 0;
+    }
+
+    .form__btn {
+      font-family: Montserrat;
+      background-color: transparent;
+      color: white;
+      font-size: 16px;
+      border: 2px solid white;
+      padding: 10px 40px;
+      margin: 25px 0 20px 0;
+      user-select: none;
+      cursor: pointer;
+    }
+  }
+}

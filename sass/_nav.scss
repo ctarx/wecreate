@@ -1,0 +1,25 @@
+.menu__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+  .menu__element {
+    margin-top: 10px;
+    width: 15%;
+
+    .menu__element-link {
+      display: block;
+      text-decoration: none;
+      font-family: Montserrat;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: rgb(76, 39, 130);
+      text-align: center;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+  }
+}
