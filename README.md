@@ -16,4 +16,4 @@ SCSS and BEM practice with a web layout.
 the awwwesomes website: [theawwwesomes](https://theawwwesomes.org/)
 
 ## Contact
-Created by [@ctarx](https://twitter.com/ctarx) - feel free to contact me!
+Created by [@ctarx](https://linuxrocks.online/@ctarx) - feel free to contact me!
